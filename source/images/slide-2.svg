@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="443px" height="409px" viewBox="0 0 443 409" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 48</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="540" height="409" rx="7"></rect>
+        <rect id="path-3" x="10.4256" y="0.30912" width="338.4" height="242" rx="18.144"></rect>
+        <filter x="-25.6%" y="-30.0%" width="151.1%" height="171.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="14" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="26.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.00460221906   0 0 0 0 0.0441804492   0 0 0 0 0.108016304  0 0 0 0.164171766 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-48" transform="translate(-50.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="Group-68" mask="url(#mask-2)">
+                <g transform="translate(92.000000, -119.000000)">
+                    <g id="Group-48" transform="translate(30.000000, 0.000000)">
+                        <g id="Group-34" transform="translate(0.000000, 469.000000)">
+                            <g id="Group-22">
+                                <g id="Group-10">
+                                    <rect id="Mask" stroke="#E1E8EF" stroke-width="0.864" fill="#FFFFFF" x="0.432" y="0.4896" width="298.512" height="177.984" rx="15.12"></rect>
+                                    <path d="M21.7728,43.4592 L256.425929,43.4592" id="Line-9" stroke="#E6E8EC" stroke-width="0.7776" stroke-linecap="square"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-34">
+                            <g id="Group-22">
+                                <g id="Group-10" fill="#FFFFFF" stroke="#E1E8EF" stroke-width="0.864">
+                                    <rect id="Mask" x="0.432" y="0.4896" width="298.512" height="177.984" rx="15.12"></rect>
+                                </g>
+                                <rect id="Rectangle" stroke="#E9E9E9" stroke-width="0.7776" fill="#FFFFFF" x="172.2384" y="134.0496" width="109.6416" height="24.8832" rx="2.3328"></rect>
+                                <text id="MEDICAL-LICENSE" font-family="OpenSans-Bold, Open Sans" font-size="10.1088" font-weight="bold" fill="#455959">
+                                    <tspan x="181.312552" y="150.8816">MEDICAL LICENSE</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle" fill="#E6E7E8" x="22.32" y="138.24" width="33.84" height="5.76"></rect>
+                            <rect id="Rectangle" fill="#E6E7E8" x="66.96" y="138.24" width="88.56" height="5.76"></rect>
+                            <rect id="Rectangle" fill="#E6E7E8" x="23" y="491" width="112" height="12"></rect>
+                            <rect id="Rectangle" fill="#E6E7E8" x="22.32" y="149.04" width="33.84" height="5.76"></rect>
+                            <rect id="Rectangle" fill="#E6E7E8" x="66.96" y="149.04" width="53.28" height="5.76"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-56" transform="translate(0.000000, 197.000000)">
+                        <g id="Group-47">
+                            <g id="Mask">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                <use fill="#E7EFF3" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            </g>
+                            <g id="Group-39">
+                                <g id="Group-34" transform="translate(0.000000, 0.240000)">
+                                    <g id="Group-22">
+                                        <g id="Group-10">
+                                            <rect id="Mask" fill="#FFFFFF" x="0" y="0.06912" width="359.2512" height="240" rx="18.144"></rect>
+                                            <path d="M0,197.06912 L359.2512,197.06912 L359.2512,222.918605 C359.2512,232.942858 351.137176,241.06912 341.112433,241.06912 L18.1387674,241.06912 C8.12100278,241.06912 0,232.947565 0,222.918605 L0,197.06912 Z" id="Mask" fill="#FFAA00"></path>
+                                            <text id="Expiring" font-family="OpenSans-Bold, Open Sans" font-size="19.728" font-weight="bold" fill="#FFAA00">
+                                                <tspan x="22.39488" y="30.552">Expiring</tspan>
+                                            </text>
+                                            <text id="Registered-Respirato" font-family="OpenSans-Semibold, Open Sans" font-size="15.86304" font-weight="500" fill="#282E2E">
+                                                <tspan x="22.39488" y="82.08224">Registered Respiratory Therapist</tspan>
+                                            </text>
+                                            <text id="RT-334445566" font-family="OpenSans, Open Sans" font-size="13.06368" font-weight="normal" fill="#4B5353">
+                                                <tspan x="22.39488" y="105.2096">RT 334445566</tspan>
+                                            </text>
+                                            <path d="M26.12736,52.15104 L307.711115,52.15104" id="Line-9" stroke="#E6E8EC" stroke-width="0.93312" stroke-linecap="square"></path>
+                                        </g>
+                                        <rect id="Rectangle" stroke="#E9E9E9" stroke-width="0.93312" fill="#FFFFFF" x="206.68608" y="140.85952" width="131.56992" height="29.85984" rx="2.79936"></rect>
+                                        <text id="MEDICAL-LICENSE" font-family="OpenSans-Bold, Open Sans" font-size="12.13056" font-weight="bold" fill="#455959">
+                                            <tspan x="217.575062" y="160.85792">MEDICAL LICENSE</tspan>
+                                        </text>
+                                    </g>
+                                    <rect id="Rectangle" fill="#E6E7E8" x="26.784" y="145.888" width="40.608" height="6.912"></rect>
+                                    <rect id="Rectangle" fill="#E6E7E8" x="80.352" y="145.888" width="106.272" height="6.912"></rect>
+                                    <rect id="Rectangle" fill="#E6E7E8" x="26.784" y="158.848" width="40.608" height="6.912"></rect>
+                                    <rect id="Rectangle" fill="#E6E7E8" x="80.352" y="158.848" width="63.936" height="6.912"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-51" transform="translate(11.000000, 206.000000)">
+                            <g id="Group-49" fill="#FFFFFF" font-size="15.884">
+                                <text id="This-license-expires" font-family="OpenSans-Semibold, Open Sans" font-weight="500">
+                                    <tspan x="0" y="17">This license expires in 10 days!</tspan>
+                                </text>
+                                <text id="Renew-now" font-family="OpenSans-Bold, Open Sans" font-weight="bold">
+                                    <tspan x="239.8" y="17">Renew now</tspan>
+                                </text>
+                            </g>
+                            <path d="M239.8,23 L330.8,23" id="Line-4" stroke="#FFFFFF" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

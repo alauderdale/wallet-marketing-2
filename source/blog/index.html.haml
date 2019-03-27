@@ -1,0 +1,27 @@
+%section#blog-index
+	.container
+		.row
+			.col-md
+				.double-padding-bottom.text-center
+					%h1.double-margin-bottom.bold-font
+						BirdSpeak
+					%p.body-large.light-text-color
+						Collection of articles, videos, and resources made by BirdSeed.
+
+		.row.justify-content-center
+			.col-md-12
+				.card-columns
+					-1.times do
+						
+						%a.blog-thumb.card.elevation-2.double-margin-bottom{:href=>""}
+							%img.card-img-top{:src=>"../images/blog-img.png", :width=>"350px"}
+							.card-body
+								%h5.text-color
+									=lorem.words(8)
+								%p.light-text-color
+									=lorem.words(15)
+								.text-left
+									%button.btn.btn-link.no-padding-left.text-left{:type=>"button"}
+										Read more
+
+				

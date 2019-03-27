@@ -1,0 +1,54 @@
+;;;
+	"title": "Styles"
+;;;
+
+
+%section
+	.container
+		.row
+			.col-lg-12
+				%h1
+					Heading one
+				%h2
+					Heading two
+				%h3
+					Heading three
+				%h4
+					Heading four
+				%h5
+					Heading five
+				%h6
+					Heading six
+				%p.body-large
+					= lorem.sentences 5
+				%p
+					= lorem.sentences 5
+				%p.body-small
+					= lorem.sentences 5
+				%p.regular-font
+					Regular font
+				%p.medium-font
+					Semibold font
+				%p.bold-font
+					Bold font
+				%p.extra-bold-font
+					Extra Bold font
+				%p
+					%a{:href=>"#"}
+						Linked
+				%p
+					%a.btn.btn-primary{:href=>"http://images6.alphacoders.com/316/316963.jpg"}
+						Primary
+					%a.btn.btn-secondary{:href=>"http://images6.alphacoders.com/316/316963.jpg"}
+						Secondary
+					%div{:style=>"background:black; padding:20px; display:inline-flex;"}
+						%a.btn.btn-outline-light{:href=>"http://images6.alphacoders.com/316/316963.jpg"}
+							White wire
+					%a.btn.btn-flat{:href=>"http://images6.alphacoders.com/316/316963.jpg"}
+						Flat
+					%a.btn.btn-link{:href=>"http://images6.alphacoders.com/316/316963.jpg"}
+						Link
+				%a.btn.btn-flat{:href=>"#"}
+					%i.material-icons
+						delete
+						

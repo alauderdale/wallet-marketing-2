@@ -1,0 +1,78 @@
+%section.main-hero#pricing-hero
+	.container
+		.row
+			.col-lg-12
+				.card-deck.pricing-card-deck
+					.card.elevation-2
+						.card-header.text-center.primary-header.inverse-header
+							%h2.margin-top
+								BirdSeed is 
+								%span.bold-font
+									FREE
+							%hr.margin-top.margin-bottom{:style=>"width:70%; margin:0 auto;"}
+							%p.body-large.bold-font
+								Get started now
+
+						.card-body
+							.account-options
+								.text-center
+									%h3.no-margin-bottom.bold-font
+										Free forever
+									%p.body-font-name.light-text-color
+										No credit card needed
+								.margin-top.double-margin-bottom
+									%ul.list-unstyled.pricing-list
+										-6.times do
+											%li
+												%p
+													%i.material-icons.primary-text-color
+														check
+													Every tool included
+						.text-center.card-footer.no-styling
+							%button.btn.btn-lg.btn-primary.btn-block{:type=>"submit"}
+								Create account
+
+					.card.elevation-2
+						.card-header.text-center.secondary-header.inverse-header
+							%h2.margin-top.bold-font
+								Need a bit more?
+							%hr.margin-top.margin-bottom{:style=>"width:70%; margin:0 auto;"}
+							%p.body-large.bold-font
+								Try BirdSeed Plus
+
+						.card-body
+							.account-options
+								.text-center
+									%h3.no-margin-bottom.bold-font
+										$29
+										%span{:style=>"font-size:23px;"}
+											\/month
+									%p.body-font-name.light-text-color
+										Total, not per user!
+								-3.times do
+									.pricing-feature
+										.media
+											%img.mr-3{:src=>"../images/price-icon-branding.svg", :width=>"30px"}
+											.media-body
+												%p.body-large.bold-font.no-margin-bottom.regular-font-name
+													No branding
+												%p.light-text-color.body-small.no-margin-bottom
+													venenatis metus sagittis sed. Phasellus ut orci purus. 
+						.text-center.card-footer.no-styling
+							%button.btn.btn-lg.btn-primary.btn-block{:type=>"submit"}
+								Create account
+
+
+
+%section#price-panel
+	.container
+		.row.justify-content-center.text-center
+			.col-lg-8
+				%h2.text-center.bold-font.margin-bottom
+					How is it free?
+				%p.body-large.text-center
+					We offer BirdSeed+ which offers extra add-ons that some businesses will find valuable. While our free version is sufficient for most businesses, the market for what we offer is large and we include a small "connected by BirdSeed" footer banner to help spread the word, that even if a small percentage of businesses choose to add BirdSeed+, we can pay the bills!
+
+
+
+

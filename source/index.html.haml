@@ -1,0 +1,98 @@
+%section.home-hero
+	.container
+		.row.align-items-center
+			.col-md-5
+				%h1.bold-font.margin-bottom
+					Take your credentials digital
+				%p.body-large.double-margin-bottom
+					EverCheck Wallet is the simple way to manage and share your healthcare credentials from your phone or desktop. 
+				%a.btn.btn-primary.btn-lg{:href=>"#"}
+					Get started
+			.col-md-7
+				%img.float-right.img-fluid{:src=>"../images/hero-phone.svg"}
+%section.portfolio
+	.container
+		.row.double-padding-bottom
+			.col.text-center
+				%h3.bold-font
+					Keep everything in one place.
+				%p.body-large
+					Upload your information once and share it anytime.
+		.row.double-padding-top
+			.col
+				%img.mx-auto.d-block.img-fluid{:src=>"../images/portfolio-phone.svg"}
+
+%section.features.double-padding-bottom
+	.container
+		.row.double-margin-bottom
+			.col.text-center
+				%h3.bold-font
+					Making healthcare work better
+				%p.body-large
+					More patient work. Less paperwork. Here’s what Wallet can do for you.
+%section.no-padding-top
+	.swiper-wrapper
+		.container
+			.row
+				.col
+					.swiper-container
+						.swiper-wrapper
+							-3.times do
+								.swiper-slide 
+									.slide-inner.no-padding-top.no-padding-bottom
+										.row.align-items-center
+											.col-sm-6
+												.swiper-content-wrapper
+													%p.bold-font.body-large
+														Stay on top of expirables automatically.
+													%p
+														Wallet alerts you when you have a license or other expirable coming due for renewal. It’s like a personal assistant for your healthcare credentials. 
+											.col-sm-6
+												%img.float-right.img-fluid{:src=>"../images/slide-2.svg"}
+
+
+						.swiper-pagination
+
+						.swiper-button-prev
+						.swiper-button-next
+
+
+
+
+%section.verifications
+	.container
+		.row.double-margin-bottom
+			.col.text-center
+				%h3.bold-font
+					150+ million verifications performed each year
+				%p.body-large
+					Backed by the power of the nation’s leading credentials verification organization, EverCheck Wallet sends your verified credentials to healthcare organizations securely. 
+		.row
+			-3.times do
+				.col-sm-4
+					.padded
+						%img.mx-auto.d-block.margin-bottom{:src=>"../images/verification-lock.svg"}
+						%p.body-large.text-center.bold-font
+							Your information is yours. 
+						%p.extra-light-text-color
+							We never share it with anyone without your permission, and we only share what’s needed for your continued employment.
+		.row.text-center.double-margin-top
+			.col
+				%a.btn.btn-primary.btn-lg{:href=>"#"}
+					Learn more
+
+%section.get-wallet
+	.container
+		.get-evercheck-teaser
+			.row.align-items-center
+				.col-sm-6
+					%img.img-fluid{:src=>"../images/teaser-bg-desktop.svg"}
+				.col-sm-6
+					.content-wrapper
+						%h3.bold-font
+							Get Evercheck Wallet
+						%p.double-margin-bottom
+							You’ve worked hard to earn your healthcare credentials. You shouldn’t have to work hard to manage them. Here’s our promise to you. 
+						%a.btn.btn-primary.btn-lg{:href=>"#"}
+							Get it now
+				

@@ -1,0 +1,13 @@
+<p>Before opening:</p>
+
+<ul>
+  <li><a href="https://github.com/twbs/bootstrap/issues?utf8=%E2%9C%93&amp;q=is%3Aissue">Search for duplicate or closed issues</a></li>
+  <li>Read the <a href="https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md">contributing guidelines</a></li>
+</ul>
+
+<p>Feature requests must include:</p>
+
+<ul>
+  <li>As much detail as possible for what we should add and why it's important to Bootstrap</li>
+  <li>Relevant links to prior art, screenshots, or live demos whenever possible</li>
+</ul>

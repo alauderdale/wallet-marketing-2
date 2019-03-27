@@ -1,0 +1,15 @@
+#primary-nav{
+	padding:$baseline 0;
+	background:white;
+	width:100%;
+	position:fixed;
+	z-index:99;
+	top:0;
+	a{
+		color:$text-color;
+	}
+	.btn{
+		min-width:auto;
+		color:white;
+	}
+}

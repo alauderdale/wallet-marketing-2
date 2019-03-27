@@ -1,0 +1,18 @@
+#primary-footer{
+	padding:$baseline*1.5 0;
+	background:$primary-color;
+	color:white;
+	.nav{
+		font-size:13px;
+		font-weight:600;
+		line-height:22px;
+		a{
+			color:white;
+		}
+		i{
+			opacity:.8;
+			font-size:16px;
+			margin-right:4px;
+		}
+	}
+}

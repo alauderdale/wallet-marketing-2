@@ -1,0 +1,51 @@
+%section.double-padding-top
+	.container
+		.row
+			.col-md-2
+			.col-md-8.blog-styles
+				%h1.double-margin-bottom.bold-font
+					How to Keep the Workflow Flowing
+				%h4.margin-bottom
+					AUGUST 30, 2018
+				%h2
+					1. Here's what you can do
+				%p
+					=lorem.paragraphs(1)
+				%p
+					=lorem.paragraphs(2)
+				%h3
+					2. Here's what you can do also in addition
+				%p
+					=lorem.paragraphs(1)
+				%p
+					=lorem.paragraphs(2)
+				%ul
+					%li
+						Testing a list item
+					%li
+						Testing another list item
+
+
+
+			.col-md-2
+		.row.double-padding-top
+			.col-lg-12
+				%nav{"aria-label" => "Page navigation example"}
+					%ul.pagination.justify-content-center
+						%li.page-item
+							%a.page-link{"aria-label" => "Previous", :href => "#"}
+								%span{"aria-hidden" => "true"}
+									«
+									Older posts 
+						%li.page-item
+							%a.page-link{"aria-label" => "Next", :href => "#"}
+								%span{"aria-hidden" => "true"} 
+									Newer posts
+									»
+
+
+
+
+
+
+=partial("shared/promo")

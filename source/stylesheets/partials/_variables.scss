@@ -1,0 +1,102 @@
+// color vars
+
+$primary-color: #0F3166;
+$secondary-color: #00CA93;
+$tertiary-color: #42A5F5;
+
+// accents
+
+
+
+$accent-one: #56E2C2;
+$accent-two: #FF5071;
+$accent-three: #9A7DFF;
+$accent-four: #FFE67E;
+$accent-five: #FFBB5A;
+$accent-six: #5BA7FF;
+$accent-seven: #63CEFF;
+$accent-eight: #8E8E93;
+
+// greys
+
+//Tbl row striped
+$off-white-color: #F9FAFC;
+
+//Tbl row selected, Dropdown hover
+$off-white-dark-color: #F3F6F6;
+
+//Borders, Tbl header, light icons
+$off-white-darker-color: #E6E8EC;
+
+//Button borders, checkbox borders,
+$lightest-gray-color: #BEC6C6;
+
+//Placeholder text
+$lighter-gray-color: #ABBDBD;
+
+//Extra light text
+$light-gray-color: #607B7B;
+
+//Light text, labels
+$gray-color: #4B5353;
+
+//Text color
+$dark-gray-color: #282E2E;
+
+//Dark text color
+$darker-gray-color: #1D2121;
+
+$primary-light-color:#4F99DE;
+
+
+//links
+
+$link-color: #0073E9;
+$link-hover-color:shade($secondary-color, 50%);
+
+
+// alerts
+
+$success-color: #00A950;
+$danger-color: #DE350B;
+$warning-color: #FFAA00;
+
+// text
+
+$placeholder-color: $lighter-gray-color;
+$extra-light-text-color: $light-gray-color;
+$light-text-color: $gray-color;
+$text-color: $dark-gray-color;
+$dark-text-color: $darker-gray-color;
+
+
+$background-color: #fff;
+$border-color: $off-white-darker-color;
+
+// units
+
+$baseline: 16px;
+$base-border-radius:3px;
+$base-font-size:16px;
+$navbar-height:59px;
+
+
+// font vars
+
+$regular-font-name: 'Montserrat', sans-serif;
+$body-font-name: 'Open Sans', sans-serif;
+$social-font-name:"socialicoregular", "Helvetica", serif;
+$social-font-name-two:"socialico_plusregular", "Helvetica", serif;
+
+
+//transitions
+
+$base-transition-duration:.13s;
+
+
+//shadows
+
+$box-shadow-elv-one:0 2px 4px 0 rgba(0,0,0,0.12);
+$box-shadow-elv-two:0 2px 10px 0 rgba(0,0,0,0.10), 0 2px 4px 0 rgba(0,0,0,0.04);
+$box-shadow-elv-three: 0 24px 32px 0 rgba(0,0,0,0.10);
+

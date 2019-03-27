@@ -1,0 +1,28 @@
+.get-evercheck-teaser{
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f99de+0,275fbb+100 */
+	background: $primary-color; /* Old browsers */
+
+	box-shadow: 0 15px 44px 0 rgba(1,11,28,0.25);
+
+	h3,p{
+		color:white;
+	}
+
+	border-radius: 34px;
+	.content-wrapper{
+		padding:0 40px;
+	}
+}
+
+
+.verifications{
+	padding-top:$baseline*14;
+	background:url("../images/verification-bg.png") top repeat-x;
+}
+
+
+.portfolio{
+	background:url("../images/port-bg.svg") center -300px  no-repeat;
+	padding-bottom:$baseline*18;
+}
