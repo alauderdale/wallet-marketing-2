@@ -1,4 +1,5 @@
 .home-hero{
+	padding-top:$baseline*3;
 	@include breakpoint(md) {
 		padding-top:$baseline*3;
 	}
