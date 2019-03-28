@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="683px" height="692px" viewBox="0 0 683 692" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Fill 1 + + + Group 45 Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="735" height="722"></rect>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#4F99DE" offset="0%"></stop>
+            <stop stop-color="#275FBB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="55.0590413%" y1="89.1635193%" x2="3.67150346%" y2="-9.18565221%" id="linearGradient-4">
+            <stop stop-color="#1C51A6" offset="0%"></stop>
+            <stop stop-color="#85F2FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#00EDB1" offset="0%"></stop>
+            <stop stop-color="#00D779" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-347.000000, -198.000000)">
+            <g id="Fill-1-+-+-+-Group-45-Mask" transform="translate(295.000000, 198.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M114.32062,-454.210469 C7.57851076,-68.3032772 34.4414451,289.258493 222.173216,494.75872 C404.211714,702.862486 747.117242,758.902897 1140.94624,601.904231 C1336.72768,528.592047 1522.4028,413.902251 1679.96726,289.401625 C1837.88744,164.341155 1967.70239,29.4680431 2059.96664,-97.0599743 C2152.58662,-224.146022 2207.65771,-342.885164 2224.28611,-448.499714 C2241.27204,-554.668671 2219.81167,-647.713037 2167.57006,-736.253298 C2115.06663,-825.001915 2037.25855,-905.463414 1951.51637,-989.758656 C1865.44195,-1073.51217 1771.43341,-1161.09943 1678.8658,-1251.65803 C1585.96595,-1341.67308 1494.50522,-1434.65585 1405.8848,-1516.78238 C1316.93394,-1598.36719 1230.81799,-1669.09395 1140.94624,-1702.1464 C963.306353,-1777.08376 790.920961,-1671.88592 602.791943,-1436.77021 C419.98423,-1203.95728 221.434698,-841.226475 114.32062,-454.210469" id="Fill-1" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                <polygon id="+" fill="url(#linearGradient-4)" opacity="0.165108817" mask="url(#mask-2)" points="148.388944 180.370482 90 180.370482 90 137.587349 148.388944 137.587349 148.388944 79 190.611056 79 190.611056 137.587349 249 137.587349 249 180.370482 190.611056 180.370482 190.611056 238 148.388944 238"></polygon>
+                <g id="Group-45" mask="url(#mask-2)">
+                    <g transform="translate(379.000000, 146.000000)">
+                        <polygon id="Triangle" fill="url(#linearGradient-5)" opacity="0.140183222" points="110.5 0 221 168 0 168"></polygon>
+                        <circle id="Oval" fill="url(#linearGradient-4)" opacity="0.128022693" cx="245" cy="183" r="120"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

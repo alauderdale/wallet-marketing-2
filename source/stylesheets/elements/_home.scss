@@ -1,5 +1,23 @@
+#main{
+	background:url("../images/home-hero-bg.svg") top right no-repeat;
+	background-size:47%;
+	@include breakpoint(lg) {
+		background-size:60%;
+	}
+	//big screen fix
+	@media (min-width: 1820px) {
+	  background-position-y:-200px;
+	}
+
+	@include breakpoint(md) {
+		padding-top:$baseline*3;
+		background:none;
+	}
+
+}
+
 .home-hero{
-	padding-top:$baseline*3;
+
 	@include breakpoint(md) {
 		padding-top:$baseline*3;
 	}

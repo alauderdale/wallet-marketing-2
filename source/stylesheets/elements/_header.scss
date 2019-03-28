@@ -1,3 +1,4 @@
+
 #primary-nav{
 	padding:$baseline 0;
 	background:white;
@@ -5,12 +6,53 @@
 	position:fixed;
 	z-index:99;
 	top:0;
+	box-shadow: rgba(81, 107, 152, 0.16) 0px 2px 4px;
+	@include transition-duration(.2s);
 	a{
 		color:$text-color;
 	}
 	.btn{
 		min-width:auto;
 		color:white;
+		box-shadow: 0 6px 9px 0 rgba(0,0,0,0.09);
+	}
+	&.navbar-page-top{
+		background:transparent;
+		box-shadow:none;
+		.btn{
+			
+			background:white;
+			color:$link-color-dark;
+			border-color:white;
+		}
+		a{
+			color:white;
+		}
+
+	  @include breakpoint(md) {
+
+		padding:$baseline 0;
+		background:white;
+		width:100%;
+		position:fixed;
+		z-index:99;
+		top:0;
+		box-shadow: rgba(81, 107, 152, 0.16) 0px 2px 4px;
+		@include transition-duration(.2s);
+		a{
+			color:$text-color;
+		}
+		.btn{
+			background:$link-color;
+			border-color:$link-color;
+			min-width:auto;
+			color:white;
+			box-shadow: 0 6px 9px 0 rgba(0,0,0,0.09);
+		}
+
+	  }
+
+
 	}
 }
 
