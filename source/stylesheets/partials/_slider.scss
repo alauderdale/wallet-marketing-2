@@ -12,6 +12,9 @@
 		&.swiper-slide-active{
 			opacity:1;
 			padding:0 40px;
+			@include breakpoint(md) {
+				padding:0;
+			}
 		}
 		.slide-inner{
 			background: #FFFFFF;
@@ -20,6 +23,14 @@
 			padding:0 40px;
 			.swiper-content-wrapper{
 				padding:$baseline*5;
+				@include breakpoint(lg) {
+					padding:$baseline;
+					padding-left:0;
+				}
+				@include breakpoint(md) {
+					padding:$baseline*2 $baseline;
+					padding-left:0;
+				}
 			}
 		}
 	}
@@ -35,10 +46,22 @@
 
 .swiper-button-prev{
     background-image:url("../images/slider-nav-left.svg");
+    @include breakpoint(md) {
+    	margin-left:-40px;
+    }
+    @include breakpoint(sm) {
+    	display:none!important;
+    }
 }
 
 .swiper-button-next{
 	background-image:url("../images/slider-nav-right.svg");
+	@include breakpoint(md) {
+    	margin-right:-40px;
+    }
+    @include breakpoint(sm) {
+    	display:none!important;
+    }
 }
 
 .swiper-pagination-bullets{

@@ -25,4 +25,7 @@
 .portfolio{
 	background:url("../images/port-bg.svg") center -300px  no-repeat;
 	padding-bottom:$baseline*18;
+	@include breakpoint(sm) {
+		padding-bottom:$baseline*6;
+	}
 }

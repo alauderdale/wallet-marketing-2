@@ -153,3 +153,20 @@ a{
 		}
 	}
 }
+
+
+
+//mobile
+
+  @include breakpoint(md) {
+
+
+  }
+
+
+  @include breakpoint(sm) {
+    .btn-block-sm{
+      width:100%!important;
+    }
+
+  }

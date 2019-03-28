@@ -36,6 +36,34 @@ $(document).ready(function(){
 
 
 
+  $( ".menu-button" ).click(function() {
+        $( "html" ).toggleClass( "nav-open" );
+    });
+
+    $( ".menu-link" ).click(function() {
+        $('.menu-button').trigger('click');
+    });
+
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 5) {
+      $("#primary-nav").removeClass("navbar-page-top");
+    }
+
+
+  $(window).scroll(function() {    
+      
+    var scroll = $(window).scrollTop();
+      if (scroll >= 5) {
+          $("#primary-nav").removeClass("navbar-page-top");
+      } else {
+          $("#primary-nav").addClass("navbar-page-top");
+      }
+  });
+
+
+
+
 
 });
 

@@ -14,5 +14,16 @@
 			font-size:16px;
 			margin-right:4px;
 		}
+		@include breakpoint(sm) {
+			float:none!important;
+			margin-top:$baseline;
+		}
+	}
+	@include breakpoint(sm) {
+		img.footer-logo{
+			text-align:center;
+			margin:0 auto;
+			display:block;
+		}
 	}
 }

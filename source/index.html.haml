@@ -1,15 +1,15 @@
 %section.home-hero
 	.container
 		.row.align-items-center
-			.col-md-5
-				%h1.bold-font.margin-bottom
+			.col-md-7.col-lg-6
+				%h1.bold-font.margin-bottom.text-align-center-sm
 					Take your credentials digital
-				%p.body-large.double-margin-bottom
+				%p.body-large.double-margin-bottom.text-align-center-sm
 					EverCheck Wallet is the simple way to manage and share your healthcare credentials from your phone or desktop. 
-				%a.btn.btn-primary.btn-lg{:href=>"#"}
+				%a.btn.btn-primary.btn-lg.btn-block-sm{:href=>"#"}
 					Get started
-			.col-md-7
-				%img.float-right.img-fluid{:src=>"../images/hero-phone.svg"}
+			.col-md-5.col-lg-6
+				%img.float-right.img-fluid.double-margin-top{:src=>"../images/hero-phone.svg"}
 %section.portfolio
 	.container
 		.row.double-padding-bottom
@@ -41,14 +41,14 @@
 								.swiper-slide 
 									.slide-inner.no-padding-top.no-padding-bottom
 										.row.align-items-center
-											.col-sm-6
+											.col-md-6
+												%img.img-fluid.mx-auto.d-block{:src=>"../images/slide-2.svg"}
+											.col-md-6
 												.swiper-content-wrapper
 													%p.bold-font.body-large
 														Stay on top of expirables automatically.
 													%p
 														Wallet alerts you when you have a license or other expirable coming due for renewal. It’s like a personal assistant for your healthcare credentials. 
-											.col-sm-6
-												%img.float-right.img-fluid{:src=>"../images/slide-2.svg"}
 
 
 						.swiper-pagination
@@ -69,7 +69,7 @@
 					Backed by the power of the nation’s leading credentials verification organization, EverCheck Wallet sends your verified credentials to healthcare organizations securely. 
 		.row
 			-3.times do
-				.col-sm-4
+				.col-md-4
 					.padded
 						%img.mx-auto.d-block.margin-bottom{:src=>"../images/verification-lock.svg"}
 						%p.body-large.text-center.bold-font
@@ -78,7 +78,7 @@
 							We never share it with anyone without your permission, and we only share what’s needed for your continued employment.
 		.row.text-center.double-margin-top
 			.col
-				%a.btn.btn-primary.btn-lg{:href=>"#"}
+				%a.btn.btn-primary.btn-lg.btn-block-sm{:href=>"#"}
 					Learn more
 
 %section.get-wallet

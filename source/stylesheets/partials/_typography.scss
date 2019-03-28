@@ -175,7 +175,7 @@ h1{
   line-height:82px;
   font-family:$regular-font-name;
   @include breakpoint(md) {
-    font-size:55px;
+    font-size:45px;
     line-height:60px;
   }
   @include breakpoint(sm) {
@@ -272,6 +272,8 @@ p.body-small{
 
 
   @include breakpoint(sm) {
-
+    .text-align-center-sm{
+      text-align:center!important;
+    }
 
   }

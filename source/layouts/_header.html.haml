@@ -1,9 +1,21 @@
+.mobile-menu.d-lg-none
+	.navbar-nav.mx-auto
+		.nav-item
+			%a.nav-link{:href => "/"}
+				Security
+		.nav-item
+			%a.nav-link{:href => "/about"}
+				Help
+		.nav-item
+			%a.nav-link.btn.btn-primary{:href => "/pricing"}
+				Get started
+
 #primary-nav
 	.container
 		.row.align-items-center
 			.col
 				%img{:src=>"../images/logo.svg"}
-			.col
+			.col.d-sm-none.d-none.d-md-block
 				%ul.nav.justify-content-end.align-items-center
 					%li.nav-item
 						%a.nav-link{:href=>"#"}
@@ -14,3 +26,8 @@
 					%li.nav-item.margin-left
 						%a.btn.btn-primary.btn-lg{:href=>"#"}
 							Get started
+.d-block.d-md-none
+	%button.tcon.tcon-menu--xcross.menu-button.toggle-menu-button{:type => "button"}
+		%span.tcon-menu__lines{"aria-hidden" => "true"}
+		%span.tcon-visuallyhidden
+			toggle menu
