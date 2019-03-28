@@ -6,7 +6,7 @@
 	position:fixed;
 	z-index:99;
 	top:0;
-	box-shadow: rgba(81, 107, 152, 0.16) 0px 2px 4px;
+	// box-shadow: rgba(81, 107, 152, 0.16) 0px 2px 4px;
 	@include transition-duration(.2s);
 	a{
 		color:$text-color;
