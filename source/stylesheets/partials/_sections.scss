@@ -3,9 +3,9 @@
 
 //sections
 section{
-  padding:$baseline*6 0;
-  @include breakpoint(sm) {
-  	padding:$baseline*6 0;
+  padding:$baseline*5 0;
+  @include breakpoint(md) {
+  	padding:$baseline*3 0;
   }
   &.inverse-section{
   	background:$primary-color;

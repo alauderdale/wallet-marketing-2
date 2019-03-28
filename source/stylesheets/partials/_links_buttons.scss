@@ -39,6 +39,17 @@ a{
 			border-color:shade($lightest-gray-color,90%);
 		}
 	}
+	&.btn-white{
+		background:white;
+		color:#326EC4;
+		font-weight:700;
+		&:hover{
+			
+		}
+	}
+	&.btn-shadow{
+		box-shadow: 0 6px 9px 0 rgba(0,0,0,0.09);
+	}
 	//alert buttons
 	&.btn-danger{
 		background:$danger-color;

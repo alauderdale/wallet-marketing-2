@@ -1,6 +1,6 @@
 // typography baselines and @font face setups
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Open+Sans:400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Open+Sans:400,400i,600,600i,700');
 
 //imports
 
@@ -175,12 +175,8 @@ h1{
   line-height:82px;
   font-family:$regular-font-name;
   @include breakpoint(md) {
-    font-size:45px;
-    line-height:60px;
-  }
-  @include breakpoint(sm) {
-    font-size:47px;
-    line-height:50px;
+    font-size:30px;
+    line-height:35px;
   }
 }
 
@@ -194,6 +190,10 @@ h3{
   font-size:35px;
   line-height:44px;
   font-family:$regular-font-name;
+  @include breakpoint(md) {
+    font-size:24px;
+    line-height:28px;
+  }
 }
 
 h4{
@@ -216,11 +216,19 @@ h6{
 
 p{
   font-family:$body-font-name;
+  @include breakpoint(md) {
+    font-size:15px;
+    line-height:23px;
+  }
 }
 
 p.body-large{
   font-size:21px;
   line-height:34px;
+  @include breakpoint(md) {
+    font-size:18px;
+    line-height:30px;
+  }
 }
 
 p.body-small{

@@ -22,7 +22,7 @@
 			.col
 				%img.mx-auto.d-block.img-fluid{:src=>"../images/portfolio-phone.svg"}
 
-%section.features.double-padding-bottom
+%section.features.no-padding-bottom
 	.container
 		.row.double-margin-bottom
 			.col.text-center
@@ -30,25 +30,46 @@
 					Making healthcare work better
 				%p.body-large
 					More patient work. Less paperwork. Here’s what Wallet can do for you.
-%section.padding-top.swiper-section
+%section.swiper-section
 	.swiper-wrapper
 		.container
 			.row
 				.col
 					.swiper-container
 						.swiper-wrapper
-							-3.times do
-								.swiper-slide 
-									.slide-inner.no-padding-top.no-padding-bottom
-										.row.align-items-center
-											.col-md-6
-												%img.img-fluid.mx-auto.d-block{:src=>"../images/slide-2.svg"}
-											.col-md-6
-												.swiper-content-wrapper
-													%p.bold-font.body-large
-														Stay on top of expirables automatically.
-													%p
-														Wallet alerts you when you have a license or other expirable coming due for renewal. It’s like a personal assistant for your healthcare credentials. 
+							.swiper-slide 
+								.slide-inner.no-padding-top.no-padding-bottom
+									.row.align-items-center
+										.col-md-6.order-md-2
+											%img.img-fluid.mx-auto.d-block{:src=>"../images/slide-1.svg"}
+										.col-md-6.order-md-1
+											.swiper-content-wrapper
+												%p.bold-font.body-large
+													Everthing consolidated.
+												%p
+													Rather than submitting multiple applications, simply maintain one portfolio in EverCheck Wallet. Then, share it with hospitals and facilities digitally.
+							.swiper-slide 
+								.slide-inner.no-padding-top.no-padding-bottom
+									.row.align-items-center
+										.col-md-6.order-md-2
+											%img.img-fluid.mx-auto.d-block{:src=>"../images/slide-2.svg"}
+										.col-md-6.order-md-1
+											.swiper-content-wrapper
+												%p.bold-font.body-large
+													Stay on top of expirables automatically.
+												%p
+													Wallet alerts you when you have a license or other expirable coming due for renewal. It’s like a personal assistant for your healthcare credentials. 
+							.swiper-slide 
+								.slide-inner.no-padding-top.no-padding-bottom
+									.row.align-items-center
+										.col-md-6.order-md-2
+											%img.img-fluid.mx-auto.d-block{:src=>"../images/slide-3.svg"}
+										.col-md-6.order-md-1
+											.swiper-content-wrapper
+												%p.bold-font.body-large
+													Manage your workplaces in one app.
+												%p
+													See what your employers have on record for you, and share any updates with them all at once rather than individually.
 
 
 						.swiper-pagination
@@ -68,31 +89,55 @@
 				%p.body-large
 					Backed by the power of the nation’s leading credentials verification organization, EverCheck Wallet sends your verified credentials to healthcare organizations securely. 
 		.row
-			-3.times do
-				.col-md-4
-					.padded
-						%img.mx-auto.d-block.margin-bottom{:src=>"../images/verification-lock.svg"}
-						%p.body-large.text-center.bold-font
-							Your information is yours. 
-						%p.extra-light-text-color
-							We never share it with anyone without your permission, and we only share what’s needed for your continued employment.
+			.col-md-4
+				.padded
+					%img.mx-auto.d-block.margin-bottom{:src=>"../images/verification-lock.svg"}
+					%p.body-large.text-center.medium-font
+						Your information is 
+						%br
+						yours. 
+					%p.extra-light-text-color
+						We never share it with anyone without your permission, and we only share what’s needed for your continued employment.
+			.col-md-4
+				.padded
+					%img.mx-auto.d-block.margin-bottom{:src=>"../images/verification-shield.svg"}
+					%p.body-large.text-center.medium-font
+						Security is our 
+						%br
+						priority.  
+					%p.extra-light-text-color
+						EverCheck Wallet uses industry-standard encryption methods to keep your information secure.
+			.col-md-4
+				.padded
+					%img.mx-auto.d-block.margin-bottom{:src=>"../images/verification-support.svg"}
+					%p.body-large.text-center.medium-font
+						We’re available to 
+						%br
+						help.
+ 
+					%p.extra-light-text-color
+						There are plenty of humans behind our app, and we’re here to help. Visit our 
+						%a{:href=>"#"}
+							Help Center 
+						to get in contact. 
 		.row.text-center.double-margin-top
 			.col
 				%a.btn.btn-primary.btn-lg.btn-block-sm{:href=>"#"}
 					Learn more
 
-%section.get-wallet
+%section.get-wallet.no-padding-top
 	.container
 		.get-evercheck-teaser
 			.row.align-items-center
-				.col-lg-6.d-md-none.d-none.d-lg-block
-					%img.img-fluid.d-none.d-md-block{:src=>"../images/teaser-bg-desktop.svg"}
+				.col-lg-6
+					%img.img-fluid.d-none.d-lg-block{:src=>"../images/teaser-bg-desktop.svg"}
+					%img.img-fluid.d-md-block.d-lg-none{:src=>"../images/teaser-bg-mobile.svg"}
 				.col-lg-6
 					.content-wrapper
 						%h3.bold-font
 							Get Evercheck Wallet
 						%p.double-margin-bottom
 							You’ve worked hard to earn your healthcare credentials. You shouldn’t have to work hard to manage them. Here’s our promise to you. 
-						%a.btn.btn-primary.btn-lg.btn-block-sm{:href=>"#"}
+						%a.btn.btn-white.btn-lg.btn-block-sm.btn-shadow{:href=>"#"}
 							Get it now
 				

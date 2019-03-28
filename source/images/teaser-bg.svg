@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="330px" height="325px" viewBox="0 0 330 325" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 45</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="55.0590413%" y1="89.1635193%" x2="3.67150346%" y2="-9.18565221%" id="linearGradient-1">
+            <stop stop-color="#1C51A6" offset="0%"></stop>
+            <stop stop-color="#85F2FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-45" fill="url(#linearGradient-1)">
+            <polygon id="+" opacity="0.249441964" points="58.3889437 101.370482 0 101.370482 0 58.5873494 58.3889437 58.5873494 58.3889437 0 100.611056 0 100.611056 58.5873494 159 58.5873494 159 101.370482 100.611056 101.370482 100.611056 159 58.3889437 159"></polygon>
+            <circle id="Oval" opacity="0.128022693" cx="210" cy="205" r="120"></circle>
+        </g>
+    </g>
+</svg>
