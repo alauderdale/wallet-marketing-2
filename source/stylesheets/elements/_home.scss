@@ -1,8 +1,6 @@
 .get-evercheck-teaser{
 
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f99de+0,275fbb+100 */
-	background: $primary-color; /* Old browsers */
-
+	background: $primary-color; 
 	box-shadow: 0 15px 44px 0 rgba(1,11,28,0.25);
 
 	h3,p{
@@ -12,6 +10,10 @@
 	border-radius: 34px;
 	.content-wrapper{
 		padding:0 40px;
+	}
+
+	@include breakpoint(md) {
+		padding:40px 0;
 	}
 }
 
