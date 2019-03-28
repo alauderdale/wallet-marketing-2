@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="863px" height="681px" viewBox="0 0 863 681" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="861px" height="682px" viewBox="0 0 861 682" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
     <title>Group 37</title>
     <desc>Created with Sketch.</desc>
@@ -10,40 +10,36 @@
             <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.121530813 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-3" points="3.43217737 6.39060403 0.871859011 3.87181208 0 4.72348993 3.43217737 8.1 10.8 0.851677852 9.93428084 0"></polygon>
-        <rect id="path-5" x="-3.69482223e-13" y="0" width="299.376" height="234" rx="2.88"></rect>
-        <filter x="-24.9%" y="-10.9%" width="133.4%" height="143.6%" filterUnits="objectBoundingBox" id="filter-6">
+        <rect id="path-3" x="14" y="11" width="299.376" height="234" rx="2.88"></rect>
+        <filter x="-24.9%" y="-10.9%" width="133.4%" height="143.6%" filterUnits="objectBoundingBox" id="filter-4">
             <feOffset dx="-36" dy="38" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.121530813 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-7" points="3.43217737 6.39060403 0.871859011 3.87181208 0 4.72348993 3.43217737 8.1 10.8 0.851677852 9.93428084 0"></polygon>
-        <rect id="path-9" x="0" y="0" width="253.53" height="510.3" rx="39.69"></rect>
-        <filter x="-2.8%" y="-1.0%" width="105.5%" height="102.7%" filterUnits="objectBoundingBox" id="filter-10">
+        <rect id="path-5" x="0" y="0" width="253.53" height="510.3" rx="39.69"></rect>
+        <filter x="-2.8%" y="-1.0%" width="105.5%" height="102.7%" filterUnits="objectBoundingBox" id="filter-6">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.158271416 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-11" x="14" y="58" width="226.719" height="402.57" rx="4.86"></rect>
-        <rect id="path-13" x="0" y="0.0576" width="299.376" height="178.848" rx="15.12"></rect>
-        <filter x="-24.9%" y="-14.3%" width="133.4%" height="157.0%" filterUnits="objectBoundingBox" id="filter-14">
+        <rect id="path-7" x="14" y="58" width="226.719" height="402.57" rx="4.86"></rect>
+        <rect id="path-9" x="0" y="8.0576" width="299.376" height="178.848" rx="15.12"></rect>
+        <filter x="-24.9%" y="-14.3%" width="133.4%" height="157.0%" filterUnits="objectBoundingBox" id="filter-10">
             <feOffset dx="-36" dy="38" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.121530813 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-15" points="3.43217737 6.39060403 0.871859011 3.87181208 0 4.72348993 3.43217737 8.1 10.8 0.851677852 9.93428084 0"></polygon>
-        <rect id="path-17" x="0.576" y="0" width="305.1" height="234" rx="2.88"></rect>
-        <filter x="-24.4%" y="-10.9%" width="132.8%" height="143.6%" filterUnits="objectBoundingBox" id="filter-18">
+        <rect id="path-11" x="9.576" y="7" width="305.1" height="234" rx="2.88"></rect>
+        <filter x="-24.4%" y="-10.9%" width="132.8%" height="143.6%" filterUnits="objectBoundingBox" id="filter-12">
             <feOffset dx="-36" dy="38" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.121530813 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-19" points="3.43217737 6.39060403 0.871859011 3.87181208 0 4.72348993 3.43217737 8.1 10.8 0.851677852 9.93428084 0"></polygon>
     </defs>
     <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-37" transform="translate(36.000000, 2.000000)">
-            <g id="Group-36" opacity="0.710263207" transform="translate(515.000000, 267.400000)">
-                <g id="Group-30" transform="translate(0.000000, 9.000000)">
+        <g id="Group-37" transform="translate(39.000000, 1.000000)">
+            <g id="Group-36" opacity="0.710263207" transform="translate(512.000000, 278.400000)">
+                <g id="Group-30">
                     <g id="Group-29" transform="translate(0.000000, 0.000000)">
                         <g id="Mask">
                             <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
@@ -55,15 +51,12 @@
                                 <text id="Title" font-family="OpenSans-Semibold, Open Sans" font-size="9.79776" font-weight="500" fill="#282E2E">
                                     <tspan x="0" y="10.2434226">Basic info</tspan>
                                 </text>
-                                <g id="summary-action-/-edit" transform="translate(222.454080, 1.977809)">
-                                    <g id="Group" transform="translate(0.000000, -1.000000)">
-                                        <rect id="Rectangle-15" fill-opacity="0" fill="#D8D8D8" x="0" y="1" width="17.449344" height="13.343616"></rect>
-                                        <text id="edit" font-family="MaterialIcons-Regular, Material Icons" font-size="13.29696" font-weight="normal" fill="#0073E9">
-                                            <tspan x="0.793152" y="13.1333333">edit</tspan>
-                                        </text>
-                                    </g>
+                                <g transform="translate(222.000000, 1.000000)">
+                                    <rect id="Rectangle-15" fill-opacity="0" fill="#D8D8D8" x="0" y="1" width="17.449344" height="13.343616"></rect>
+                                    <text id="edit" font-family="MaterialIcons-Regular, Material Icons" font-size="13.29696" font-weight="normal" fill="#0073E9">
+                                        <tspan x="0.793152" y="13.1333333">edit</tspan>
+                                    </text>
                                 </g>
-                                <g id="summary-action-/-none" transform="translate(172.860480, 1.977809)"></g>
                             </g>
                         </g>
                         <g id="Group-21" transform="translate(29.520000, 18.000000)">
@@ -88,23 +81,26 @@
                         <rect id="Rectangle" fill="#E6E7E8" x="91.44" y="147.6" width="79.2" height="5.76"></rect>
                     </g>
                 </g>
-                <g id="Group-35" transform="translate(280.800000, 0.000000)">
-                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2.7" fill="#00D779" cx="14.85" cy="14.85" r="14.85"></circle>
-                    <g id="Icon-color" transform="translate(9.900000, 10.800000)">
-                        <mask id="mask-4" fill="white">
-                            <use xlink:href="#path-3"></use>
-                        </mask>
-                        <path stroke="#FFFFFF" stroke-width="1.8" d="M9.93398277,1.2622193 L10.1688281,1.03140113 L10.1688281,0.641782225 L9.73013428,0.641678628 L9.51667287,0.851677852 L9.93398277,1.2622193 Z M3.43217737,6.83748746 L3.01763933,7.24530201 L3.23427317,7.45842221 L3.62967221,7.45842221 L3.84661316,7.24520141 L3.43217737,6.83748746 Z M1.28563557,4.72576093 L1.07125456,4.51485701 L0.630408486,4.51407829 L0.629733621,4.89612632 L0.869632726,5.13213444 L1.28563557,4.72576093 Z M3.43247545,5.12838473 L9.93457891,-1.2622193 L12.0833271,0.851677852 L3.43217737,9.36251254 L-1.28563557,4.72121893 L0.874085296,2.61148972 L3.43247545,5.12838473 Z"></path>
-                    </g>
+            </g>
+            <g id="Group-35" transform="translate(790.000000, 269.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="2.7" fill="#00D779" cx="14.85" cy="14.85" r="14.85"></circle>
+                <g id="Icon-color" transform="translate(6.900000, 7.800000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <polygon id="Mask" points="6.43277352 6.86616542 12.934877 0.475561397 16.3666543 3.85167785 6.43217737 13.6250251 0.42872886 7.71894793 3.87631158 4.35116735"></polygon>
                 </g>
             </g>
-            <g id="Group-38" opacity="0.138741629" transform="translate(123.000000, 0.000000)">
-                <g id="Group-33" transform="translate(12.000000, 9.900000)">
+            <g id="Group-38" opacity="0.138741629" transform="translate(118.000000, 0.000000)">
+                <g id="Group-33" transform="translate(0.000000, 0.900000)">
                     <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
                     </g>
-                    <g id="Group-24" transform="translate(31.680000, 24.480000)">
+                    <g id="Group-35" transform="translate(0.000000, 0.100000)">
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2.7" fill="#00D779" cx="14.85" cy="14.85" r="14.85"></circle>
+                        <g id="Icon-color" transform="translate(6.900000, 7.800000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <polygon id="Mask" points="6.43277352 6.86616542 12.934877 0.475561397 16.3666543 3.85167785 6.43217737 13.6250251 0.42872886 7.71894793 3.87631158 4.35116735"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-24" transform="translate(45.680000, 35.480000)">
                         <path d="M0,5.87612903 L32.3314286,5.87612903 L32.3314286,45.36 L10.296,45.36 C4.60967622,45.36 2.47273066e-15,40.7503238 1.77635684e-15,35.064 L0,5.87612903 Z" id="Rectangle" fill="#0073E9" opacity="0.144159226"></path>
                         <rect id="Rectangle" fill="#0073E9" x="6.30857143" y="0.464516129" width="33.12" height="33.84"></rect>
                         <path d="M49.6650397,33.5148387 C49.6749528,33.6451519 49.68,33.7768253 49.68,33.9096774 C49.68,36.7445016 47.3819209,39.0425806 44.5470968,39.0425806 L11.4414747,39.0425806 C8.60665048,39.0425806 6.30857143,36.7445016 6.30857143,33.9096774 C6.30857143,33.7768253 6.31361862,33.6451519 6.32353172,33.5148387 L49.6650397,33.5148387 Z" id="Combined-Shape" fill="#0055AC"></path>
@@ -116,13 +112,13 @@
                         <path d="M32.3314286,27.4924365 L14.4049675,27.4924365" id="Line-3" stroke="#FFFFFF" stroke-width="1.52064" stroke-linecap="square"></path>
                     </g>
                     <text id="National-certificate" font-family="OpenSans-Semibold, Open Sans" font-size="11.19744" font-weight="500" fill="#282E2E">
-                        <tspan x="104.4" y="48.72">National certificates</tspan>
+                        <tspan x="118.4" y="59.72">National certificates</tspan>
                     </text>
-                    <g id="Group-31" transform="translate(26.640000, 82.800000)">
+                    <g id="Group-31" transform="translate(40.640000, 93.800000)">
                         <g id="added-to-list-item">
                             <rect id="Rectangle" fill="#F9FAFC" x="0" y="0" width="254.88" height="61.92" rx="1.39968"></rect>
-                            <g id="chevron" transform="translate(225.360000, 20.160000)">
-                                <g id="Group-2" stroke-width="1" fill-rule="evenodd" fill="#FF0000" fill-opacity="0">
+                            <g id="status/complete" transform="translate(225.000000, 20.000000)">
+                                <g id="Group-2" fill="#FF0000" fill-opacity="0">
                                     <rect id="Rectangle-7" x="0" y="0" width="21.34512" height="21.34512"></rect>
                                 </g>
                                 <text id="chevron_right" font-family="MaterialIcons-Regular, Material Icons" font-size="20.64528" font-weight="normal" fill="#CFD5DF">
@@ -138,11 +134,11 @@
                         <rect id="Rectangle" fill="#E6E7E8" x="10.8" y="43.2" width="30.24" height="5.76"></rect>
                         <rect id="Rectangle" fill="#E6E7E8" x="45.36" y="43.2" width="34.56" height="5.76"></rect>
                     </g>
-                    <g id="Group-31" transform="translate(26.640000, 154.080000)">
+                    <g id="Group-31" transform="translate(40.640000, 165.080000)">
                         <g id="added-to-list-item">
                             <rect id="Rectangle" fill="#F9FAFC" x="0" y="0" width="254.88" height="61.92" rx="1.39968"></rect>
-                            <g id="chevron" transform="translate(225.360000, 20.160000)">
-                                <g id="Group-2" stroke-width="1" fill-rule="evenodd" fill="#FF0000" fill-opacity="0">
+                            <g id="status/complete" transform="translate(225.000000, 20.000000)">
+                                <g id="Group-2" fill="#FF0000" fill-opacity="0">
                                     <rect id="Rectangle-7" x="0" y="0" width="21.34512" height="21.34512"></rect>
                                 </g>
                                 <text id="chevron_right" font-family="MaterialIcons-Regular, Material Icons" font-size="20.64528" font-weight="normal" fill="#CFD5DF">
@@ -157,25 +153,16 @@
                         <rect id="Rectangle" fill="#E6E7E8" x="45.36" y="31.68" width="63.36" height="5.76"></rect>
                         <rect id="Rectangle" fill="#E6E7E8" x="10.8" y="43.2" width="30.24" height="5.76"></rect>
                         <rect id="Rectangle" fill="#E6E7E8" x="45.36" y="43.2" width="34.56" height="5.76"></rect>
-                    </g>
-                </g>
-                <g id="Group-35" transform="translate(0.600000, 0.000000)">
-                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2.7" fill="#00D779" cx="14.85" cy="14.85" r="14.85"></circle>
-                    <g id="Icon-color" transform="translate(9.900000, 10.800000)">
-                        <mask id="mask-8" fill="white">
-                            <use xlink:href="#path-7"></use>
-                        </mask>
-                        <path stroke="#FFFFFF" stroke-width="1.8" d="M9.93398277,1.2622193 L10.1688281,1.03140113 L10.1688281,0.641782225 L9.73013428,0.641678628 L9.51667287,0.851677852 L9.93398277,1.2622193 Z M3.43217737,6.83748746 L3.01763933,7.24530201 L3.23427317,7.45842221 L3.62967221,7.45842221 L3.84661316,7.24520141 L3.43217737,6.83748746 Z M1.28563557,4.72576093 L1.07125456,4.51485701 L0.630408486,4.51407829 L0.629733621,4.89612632 L0.869632726,5.13213444 L1.28563557,4.72576093 Z M3.43247545,5.12838473 L9.93457891,-1.2622193 L12.0833271,0.851677852 L3.43217737,9.36251254 L-1.28563557,4.72121893 L0.874085296,2.61148972 L3.43247545,5.12838473 Z"></path>
                     </g>
                 </g>
             </g>
-            <g id="Group-51" transform="translate(274.000000, 104.000000)">
+            <g id="Group-51" transform="translate(271.000000, 106.000000)">
                 <g id="Group-23">
                     <g id="Group-18">
                         <g id="Group-16">
                             <g id="Rectangle">
-                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
-                                <use fill="#2B2B2B" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use fill="#2B2B2B" fill-rule="evenodd" xlink:href="#path-5"></use>
                             </g>
                         </g>
                         <g id="Group-15" transform="translate(100.440000, 28.350000)" fill="#DAE1E8">
@@ -183,10 +170,10 @@
                             <ellipse id="Oval" cx="49.075" cy="3.645" rx="3.575" ry="3.645"></ellipse>
                         </g>
                     </g>
-                    <mask id="mask-12" fill="white">
-                        <use xlink:href="#path-11"></use>
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
                     </mask>
-                    <use id="Mask" fill="#F3FBFF" xlink:href="#path-11"></use>
+                    <use id="Mask" fill="#F3FBFF" xlink:href="#path-7"></use>
                 </g>
                 <g id="Group-49" opacity="0.854189918" transform="translate(21.000000, 59.000000)">
                     <g id="Group-50">
@@ -254,52 +241,55 @@
                     </g>
                 </g>
             </g>
-            <g id="Group-39" transform="translate(441.900000, 19.000000)">
-                <g id="Group-34" transform="translate(0.000000, 7.200000)">
+            <g id="Group-39" transform="translate(438.900000, 20.000000)">
+                <g id="Group-34" transform="translate(0.000000, 0.200000)">
                     <g id="Group-22">
                         <g id="Group-10">
                             <g id="Mask">
-                                <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            </g>
+                            <g id="Group-35" transform="translate(280.100000, 0.800000)">
+                                <circle id="Oval" stroke="#FFFFFF" stroke-width="2.7" fill="#00D779" cx="14.85" cy="14.85" r="14.85"></circle>
+                                <g id="Icon-color" transform="translate(6.900000, 7.800000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <polygon id="Mask" points="6.43277352 6.86616542 12.934877 0.475561397 16.3666543 3.85167785 6.43217737 13.6250251 0.42872886 7.71894793 3.87631158 4.35116735"></polygon>
+                                </g>
                             </g>
                             <text id="Current" font-family="OpenSans-Bold, Open Sans" font-size="16.44" font-weight="bold" fill="#00D779">
-                                <tspan x="18.6624" y="25.96">Current</tspan>
+                                <tspan x="18.6624" y="33.96">Current</tspan>
                             </text>
                             <text id="Registered-Respirato" font-family="OpenSans-Semibold, Open Sans" font-size="13.2192" font-weight="500" fill="#282E2E">
-                                <tspan x="18.6624" y="68.2352">Registered Respiratory Therapist</tspan>
+                                <tspan x="18.6624" y="76.2352">Registered Respiratory Therapist</tspan>
                             </text>
                             <text id="RT-334445566" font-family="OpenSans, Open Sans" font-size="10.8864" font-weight="normal" fill="#4B5353">
-                                <tspan x="18.6624" y="88.008">RT 334445566</tspan>
+                                <tspan x="18.6624" y="96.008">RT 334445566</tspan>
                             </text>
-                            <path d="M21.7728,43.4592 L256.425929,43.4592" id="Line-9" stroke="#E6E8EC" stroke-width="0.7776" stroke-linecap="square"></path>
+                            <path d="M21.7728,51.4592 L256.425929,51.4592" id="Line-9" stroke="#E6E8EC" stroke-width="0.7776" stroke-linecap="square"></path>
                         </g>
-                        <rect id="Rectangle" stroke="#E9E9E9" stroke-width="0.7776" fill="#FFFFFF" x="172.2384" y="134.0496" width="109.6416" height="24.8832" rx="2.3328"></rect>
+                        <rect id="Rectangle" stroke="#E9E9E9" stroke-width="0.7776" fill="#FFFFFF" x="172.2384" y="142.0496" width="109.6416" height="24.8832" rx="2.3328"></rect>
                         <text id="MEDICAL-LICENSE" font-family="OpenSans-Bold, Open Sans" font-size="10.1088" font-weight="bold" fill="#455959">
-                            <tspan x="181.312552" y="150.8816">MEDICAL LICENSE</tspan>
+                            <tspan x="181.312552" y="158.8816">MEDICAL LICENSE</tspan>
                         </text>
                     </g>
-                    <rect id="Rectangle" fill="#E6E7E8" x="22.32" y="138.24" width="33.84" height="5.76"></rect>
-                    <rect id="Rectangle" fill="#E6E7E8" x="66.96" y="138.24" width="88.56" height="5.76"></rect>
-                    <rect id="Rectangle" fill="#E6E7E8" x="22.32" y="149.04" width="33.84" height="5.76"></rect>
-                    <rect id="Rectangle" fill="#E6E7E8" x="66.96" y="149.04" width="53.28" height="5.76"></rect>
-                </g>
-                <g id="Group-35" transform="translate(277.200000, 0.000000)">
-                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2.7" fill="#00D779" cx="14.85" cy="14.85" r="14.85"></circle>
-                    <g id="Icon-color" transform="translate(9.900000, 10.800000)">
-                        <mask id="mask-16" fill="white">
-                            <use xlink:href="#path-15"></use>
-                        </mask>
-                        <path stroke="#FFFFFF" stroke-width="1.8" d="M9.93398277,1.2622193 L10.1688281,1.03140113 L10.1688281,0.641782225 L9.73013428,0.641678628 L9.51667287,0.851677852 L9.93398277,1.2622193 Z M3.43217737,6.83748746 L3.01763933,7.24530201 L3.23427317,7.45842221 L3.62967221,7.45842221 L3.84661316,7.24520141 L3.43217737,6.83748746 Z M1.28563557,4.72576093 L1.07125456,4.51485701 L0.630408486,4.51407829 L0.629733621,4.89612632 L0.869632726,5.13213444 L1.28563557,4.72576093 Z M3.43247545,5.12838473 L9.93457891,-1.2622193 L12.0833271,0.851677852 L3.43217737,9.36251254 L-1.28563557,4.72121893 L0.874085296,2.61148972 L3.43247545,5.12838473 Z"></path>
-                    </g>
+                    <rect id="Rectangle" fill="#E6E7E8" x="22.32" y="146.24" width="33.84" height="5.76"></rect>
+                    <rect id="Rectangle" fill="#E6E7E8" x="66.96" y="146.24" width="88.56" height="5.76"></rect>
+                    <rect id="Rectangle" fill="#E6E7E8" x="22.32" y="157.04" width="33.84" height="5.76"></rect>
+                    <rect id="Rectangle" fill="#E6E7E8" x="66.96" y="157.04" width="53.28" height="5.76"></rect>
                 </g>
             </g>
-            <g id="Group-40" transform="translate(0.000000, 383.000000)">
-                <g id="Group-33" transform="translate(12.000000, 10.800000)">
+            <g id="Group-40" transform="translate(0.000000, 388.000000)">
+                <g id="Group-33" transform="translate(0.000000, 0.800000)">
                     <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
                     </g>
-                    <g id="Group-32" transform="translate(33.840000, 19.440000)">
+                    <g id="Group-35" transform="translate(0.000000, 0.200000)">
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2.7" fill="#00D779" cx="14.85" cy="14.85" r="14.85"></circle>
+                        <g id="Icon-color" transform="translate(6.900000, 7.800000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <polygon id="Mask" points="6.43277352 6.86616542 12.934877 0.475561397 16.3666543 3.85167785 6.43217737 13.6250251 0.42872886 7.71894793 3.87631158 4.35116735"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-32" transform="translate(42.840000, 26.440000)">
                         <rect id="Rectangle" fill="#FDB833" opacity="0.144159226" x="0" y="13.787234" width="53.28" height="25.7361702"></rect>
                         <path d="M35.6705439,9.65106383 L30.8647431,9.65106383 L30.8647431,4.85106383 L21.204842,4.85106383 L21.204842,9.65106383 L16.3507417,9.65106383 L16.3507417,4.85106383 L21.1806923,0 L30.8405934,0 L35.6705439,4.85106383 L35.6705439,9.65106383 Z" id="Combined-Shape" fill="#FFD991" fill-rule="nonzero"></path>
                         <path d="M45.2593548,26.699109 L45.2593548,38.592 C45.2593548,41.1369281 43.196283,43.2 40.6513548,43.2 L11.4828387,43.2 C8.93791058,43.2 6.87483871,41.1369281 6.87483871,38.592 L6.87483871,26.9347101 C5.54881009,26.5342243 4.58322581,25.3030743 4.58322581,23.8464 L4.58322581,13.0176 C4.58322581,11.2361503 6.02737612,9.792 7.80882581,9.792 L43.7524645,9.792 C45.5339142,9.792 46.9780645,11.2361503 46.9780645,13.0176 L46.9780645,23.8464 C46.9780645,25.0835396 46.2815941,26.1580098 45.2593548,26.699109 Z" id="Combined-Shape" fill="#FDB833"></path>
@@ -308,13 +298,13 @@
                         <polygon id="+" fill="#FFFFFF" fill-rule="nonzero" points="25.1771035 26.731683 23.2506711 26.731683 23.2506711 25.8709009 25.1771035 25.8709009 25.1771035 23.8978723 26.0483543 23.8978723 26.0483543 25.8709009 27.979627 25.8709009 27.979627 26.731683 26.0483543 26.731683 26.0483543 28.6950399 25.1771035 28.6950399"></polygon>
                     </g>
                     <text id="Employment-history" font-family="OpenSans-Semibold, Open Sans" font-size="11.19744" font-weight="500" fill="#282E2E">
-                        <tspan x="104.4" y="48.72">Employment history</tspan>
+                        <tspan x="113.4" y="55.72">Employment history</tspan>
                     </text>
-                    <g id="Group-31" transform="translate(26.640000, 82.800000)">
+                    <g id="Group-31" transform="translate(35.640000, 89.800000)">
                         <g id="added-to-list-item">
                             <rect id="Rectangle" fill="#F9FAFC" x="0" y="0" width="254.88" height="61.92" rx="1.39968"></rect>
-                            <g id="chevron" transform="translate(225.360000, 20.160000)">
-                                <g id="Group-2" stroke-width="1" fill-rule="evenodd" fill="#FF0000" fill-opacity="0">
+                            <g id="status/complete" transform="translate(225.000000, 20.000000)">
+                                <g id="Group-2" fill="#FF0000" fill-opacity="0">
                                     <rect id="Rectangle-7" x="0" y="0" width="21.34512" height="21.34512"></rect>
                                 </g>
                                 <text id="chevron_right" font-family="MaterialIcons-Regular, Material Icons" font-size="20.64528" font-weight="normal" fill="#CFD5DF">
@@ -328,11 +318,11 @@
                         <rect id="Rectangle" fill="#E6E7E8" x="10.8" y="31.68" width="131.04" height="5.76"></rect>
                         <rect id="Rectangle" fill="#E6E7E8" x="10.8" y="43.2" width="63.36" height="5.76"></rect>
                     </g>
-                    <g id="Group-31" transform="translate(26.640000, 152.640000)">
+                    <g id="Group-31" transform="translate(35.640000, 159.640000)">
                         <g id="added-to-list-item">
                             <rect id="Rectangle" fill="#F9FAFC" x="0" y="0" width="254.88" height="61.92" rx="1.39968"></rect>
-                            <g id="chevron" transform="translate(225.360000, 20.160000)">
-                                <g id="Group-2" stroke-width="1" fill-rule="evenodd" fill="#FF0000" fill-opacity="0">
+                            <g id="status/complete" transform="translate(225.000000, 20.000000)">
+                                <g id="Group-2" fill="#FF0000" fill-opacity="0">
                                     <rect id="Rectangle-7" x="0" y="0" width="21.34512" height="21.34512"></rect>
                                 </g>
                                 <text id="chevron_right" font-family="MaterialIcons-Regular, Material Icons" font-size="20.64528" font-weight="normal" fill="#CFD5DF">
@@ -345,15 +335,6 @@
                         </g>
                         <rect id="Rectangle" fill="#E6E7E8" x="10.8" y="31.68" width="131.04" height="5.76"></rect>
                         <rect id="Rectangle" fill="#E6E7E8" x="10.8" y="43.2" width="63.36" height="5.76"></rect>
-                    </g>
-                </g>
-                <g id="Group-35" transform="translate(0.000000, -0.000000)">
-                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2.7" fill="#00D779" cx="14.85" cy="14.85" r="14.85"></circle>
-                    <g id="Icon-color" transform="translate(9.900000, 10.800000)">
-                        <mask id="mask-20" fill="white">
-                            <use xlink:href="#path-19"></use>
-                        </mask>
-                        <path stroke="#FFFFFF" stroke-width="1.8" d="M9.93398277,1.2622193 L10.1688281,1.03140113 L10.1688281,0.641782225 L9.73013428,0.641678628 L9.51667287,0.851677852 L9.93398277,1.2622193 Z M3.43217737,6.83748746 L3.01763933,7.24530201 L3.23427317,7.45842221 L3.62967221,7.45842221 L3.84661316,7.24520141 L3.43217737,6.83748746 Z M1.28563557,4.72576093 L1.07125456,4.51485701 L0.630408486,4.51407829 L0.629733621,4.89612632 L0.869632726,5.13213444 L1.28563557,4.72576093 Z M3.43247545,5.12838473 L9.93457891,-1.2622193 L12.0833271,0.851677852 L3.43217737,9.36251254 L-1.28563557,4.72121893 L0.874085296,2.61148972 L3.43247545,5.12838473 Z"></path>
                     </g>
                 </g>
             </g>
