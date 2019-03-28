@@ -11,7 +11,7 @@ $(document).ready(function(){
 
       loop: true,
       keyboard: true,
-      initialSlide: 1,
+      initialSlide: 0,
       slidesPerView: 'auto',
       loopedSlides: 3,
 
