@@ -2,6 +2,17 @@
 	@include breakpoint(md) {
 		padding-top:$baseline*3;
 	}
+
+
+	@include breakpoint(sm) {
+		img{
+			margin:0 auto;
+			margin-bottom:20px;
+			display:block;
+			float:none!important;
+		}
+	}
+
 }
 
 
