@@ -15,7 +15,10 @@
 		border-color:$link-color;
 		min-width:auto;
 		color:white;
-		box-shadow: 0 6px 9px 0 rgba(0,0,0,0.09);
+		transition: box-shadow 0.3s ease-in-out 0s, transform 0.2s ease-in-out 0s;
+		&:hover{
+			box-shadow: 0 6px 9px 0 rgba(0,115,233,0.22), 0 6px 9px 0 rgba(0,0,0,0.09);
+		}
 	}
 
 
@@ -29,7 +32,7 @@
 		background:transparent;
 		box-shadow:none;
 		.btn{
-			
+			box-shadow: 0 6px 9px 0 rgba(0,0,0,0.09);
 			background:white;
 			color:$link-color-dark;
 			border-color:white;
