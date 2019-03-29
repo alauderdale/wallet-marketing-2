@@ -105,6 +105,11 @@
 	padding-bottom:$baseline*10;
 	@include breakpoint(md) {
 		padding-bottom:$baseline*6;
+
+		// .port-phone-inner{
+		// 	position:relative;
+		// 	right:20px;
+		// }
 	}
 }
 
@@ -150,6 +155,9 @@
 		.port-card-3{
 			top: 310px;
 			right: 490px;
+			@include breakpoint(md) {
+				left: -80px;
+			}
 		}
 		.port-card-4{
 			top: -127px;
@@ -171,7 +179,7 @@
 			top: 293px;
 			right: 148px;
 			@include breakpoint(md) {
-				right: -21px;
+				right: 149px;
 			}
 		}
 		.port-check-4{
