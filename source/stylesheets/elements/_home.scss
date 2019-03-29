@@ -45,6 +45,7 @@
 
 
 	@include breakpoint(sm) {
+		padding-top:$baseline*4;
 		img{
 			margin:0 auto;
 			margin-bottom:20px;
