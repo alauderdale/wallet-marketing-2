@@ -80,7 +80,7 @@
 
 
 .portfolio{
-	background:url("../images/port-bg.svg") center -300px  no-repeat;
+	background:url("../images/port-bg.svg") center -380px  no-repeat;
 	padding-bottom:$baseline*10;
 	@include breakpoint(md) {
 		padding-bottom:$baseline*6;
@@ -122,6 +122,9 @@
 		.port-card-2{
 			top: 240px;
 			left: 482px;
+			@include breakpoint(md) {
+				left: 412px;
+			}
 		}
 		.port-card-3{
 			top: 310px;
@@ -138,11 +141,17 @@
 		.port-check-2{
 			left: 810px;
 			top: 230px;
+			@include breakpoint(md) {
+				left: 740px;
+			}
 		
 		}
 		.port-check-3{
 			top: 293px;
 			right: 148px;
+			@include breakpoint(md) {
+				right: -21px;
+			}
 		}
 		.port-check-4{
 			top: -100px;
