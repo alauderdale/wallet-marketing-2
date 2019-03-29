@@ -193,11 +193,11 @@ $(document).ready(function(){
 
 
     clearCard.set("#clear", {
-      x:300,
+      x:250,
       autoAlpha:0
     }).to("#clear", .6, {
-      delay:2.2,
-      ease: Power1.easeIn,
+      delay:2,
+      ease: Power1.easeOut,
       x:200,
       autoAlpha:1
     })
