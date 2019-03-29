@@ -25,25 +25,25 @@ svg{
  */
 @-webkit-keyframes scale-in-center {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    -webkit-transform: scale(0) translate(31px, 175px);
+            transform: scale(0) translate(31px, 175px);
     opacity: 1;
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: scale(1) translate(31px, 175px);
+            transform: scale(1) translate(31px, 175px);
     opacity: 1;
   }
 }
 @keyframes scale-in-center {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    -webkit-transform: scale(0) translate(31px, 175px);
+            transform: scale(0) translate(31px, 175px);
     opacity: 1;
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: scale(1) translate(31px, 175px);
+            transform: scale(1) translate(31px, 175px);
     opacity: 1;
   }
 }
