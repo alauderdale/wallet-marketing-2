@@ -4,12 +4,15 @@
 	@include breakpoint(lg) {
 		background-size:60%;
 	}
+	@include breakpoint(md) {
+		background-size:50%;
+	}
 	//big screen fix
 	@media (min-width: 1820px) {
 	  background-position-y:-200px;
 	}
 
-	@include breakpoint(md) {
+	@include breakpoint(sm) {
 		padding-top:$baseline*3;
 		background:none;
 	}
@@ -29,6 +32,14 @@
 
 	@include breakpoint(md) {
 		padding-top:$baseline*4;
+
+		svg{
+			width: 390px;
+			float: right;
+			position:relative;
+			left:120px;
+		}
+
 	}
 
 

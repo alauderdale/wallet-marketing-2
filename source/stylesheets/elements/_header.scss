@@ -41,7 +41,7 @@
 			color:white;
 		}
 
-	  @include breakpoint(md) {
+	  @include breakpoint(sm) {
 
 	  	@include header-base;
 
