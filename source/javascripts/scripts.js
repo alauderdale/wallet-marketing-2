@@ -112,8 +112,8 @@ $(document).ready(function(){
 
 
     bottomCardtl.set("#bottom-card", {
-      x:-40,
-      y:420,
+      x:50,
+      y:350,
       scale: 1.6,
       autoAlpha:0
     }).to("#bottom-card", .2, {
@@ -165,7 +165,7 @@ $(document).ready(function(){
     phoneTimeline.set("#phone", {
       autoAlpha:0
     }).to("#phone", .2, {
-      delay:1.9,
+      delay:1.7,
       ease: Power1.easeIn,
       autoAlpha:1
     })
@@ -175,13 +175,13 @@ $(document).ready(function(){
 
 
     topCardtl.set("#top-card", {
-      x:20,
+      x:0,
       y:170,
-      scale:1.2,
+      scale:1,
       autoAlpha:0
-    }).to("#top-card", .6, {
-      delay:1.5,
-      ease: Power1.easeIn,
+    }).to("#top-card", .4, {
+      delay:2.1,
+      ease: Power1.easeOut,
       x:30,
       y:170,
       scale:1,
@@ -193,10 +193,10 @@ $(document).ready(function(){
 
 
     clearCard.set("#clear", {
-      x:250,
+      x:220,
       autoAlpha:0
-    }).to("#clear", .6, {
-      delay:2,
+    }).to("#clear", .4, {
+      delay:2.1,
       ease: Power1.easeOut,
       x:200,
       autoAlpha:1
