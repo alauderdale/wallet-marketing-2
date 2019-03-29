@@ -189,6 +189,20 @@ $(document).ready(function(){
     })
 
 
+    var clearCard = new TimelineLite();
+
+
+    clearCard.set("#clear", {
+      x:300,
+      autoAlpha:0
+    }).to("#clear", .6, {
+      delay:2.2,
+      ease: Power1.easeIn,
+      x:200,
+      autoAlpha:1
+    })
+
+
 
 });
 
