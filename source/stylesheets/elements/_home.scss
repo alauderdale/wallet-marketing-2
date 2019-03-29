@@ -21,7 +21,8 @@
 
 .home-hero{
 
-
+	overflow-x:hidden;
+	
 	@include breakpoint(lg) {
 
 		svg{
