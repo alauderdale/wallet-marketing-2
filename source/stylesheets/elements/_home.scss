@@ -18,6 +18,15 @@
 
 .home-hero{
 
+
+	@include breakpoint(lg) {
+
+		svg{
+			width: 90%;
+			float: right;
+		}
+	}
+
 	@include breakpoint(md) {
 		padding-top:$baseline*4;
 	}
