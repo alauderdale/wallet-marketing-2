@@ -202,15 +202,16 @@ $(document).ready(function(){
       autoAlpha:1
     })
 
-    //card animations
 
 
 
 
+  var waypoint = new Waypoint({
+    element: document.getElementById('trigger-1'),
+    handler: function(direction) {
+        
 
-    var waypoint = new Waypoint({
-  element: document.getElementById('portfolio'),
-  handler: function(direction) {
+          //card animations
 
 
     var portCard1Tl = new TimelineLite();
@@ -300,9 +301,10 @@ $(document).ready(function(){
 
 
 
+      this.destroy()
 
 
-  }
+    }
   })
 
 
