@@ -77,14 +77,14 @@ $(document).ready(function(){
     // });
 
 
-    // TweenMax.set("#top-card");
-    // TweenMax.to("#top-card", .5, {
-    //   y: 163,
-    //   scale: 1,
-    //   delay: 0,
-    //   ease: Power1.easeOut,
-    //   autoAlpha:1,
-    // });
+    TweenMax.set("#pohne-port");
+    TweenMax.to("#pohne-port", .5, {
+      y: 163,
+      scale: 1,
+      delay: 0,
+      ease: Power1.easeOut,
+      autoAlpha:1,
+    });
 
     // TweenMax.set("#bottom-card");
     // TweenMax.to("#bottom-card", .5, {
@@ -201,6 +201,109 @@ $(document).ready(function(){
       x:200,
       autoAlpha:1
     })
+
+    //card animations
+
+
+
+
+
+    var waypoint = new Waypoint({
+  element: document.getElementById('portfolio'),
+  handler: function(direction) {
+
+
+    var portCard1Tl = new TimelineLite();
+
+
+    portCard1Tl.set(".port-card-1", {
+      scale:0,
+      x:-200,
+      y:200,
+      autoAlpha:0
+    }).to(".port-card-1", .7, {
+      scale:1,
+      x:0,
+      y:0,
+      delay:.1,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+    var portCard2Tl = new TimelineLite();
+
+
+    portCard2Tl.set(".port-card-2", {
+      scale:0,
+      x:-200,
+      y:-200,
+      delay:.2,
+      autoAlpha:0
+    }).to(".port-card-2", .7, {
+      scale:1,
+      x:0,
+      y:0,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+    var portCard3Tl = new TimelineLite();
+
+
+    portCard3Tl.set(".port-card-3", {
+      scale:0,
+      x:200,
+      y:-200,
+      delay:.3,
+      autoAlpha:0
+    }).to(".port-card-3", .7, {
+      scale:1,
+      x:0,
+      y:0,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+    var portCard4Tl = new TimelineLite();
+
+
+    portCard4Tl.set(".port-card-4", {
+      scale:0,
+      x:200,
+      y:200,
+      delay:.4,
+      autoAlpha:0
+    }).to(".port-card-4", .7, {
+      scale:1,
+      x:0,
+      y:0,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+    var checkTl = new TimelineLite();
+
+
+    checkTl.set(".port-check", {
+      scale:0,
+      autoAlpha:0
+    }).to(".port-check", .3, {
+      scale:1,
+      delay:1,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+
+
+
+  }
+  })
 
 
 
