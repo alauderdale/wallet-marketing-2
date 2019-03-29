@@ -22,7 +22,7 @@
 .home-hero{
 
 	overflow-x:hidden;
-	
+
 	@include breakpoint(lg) {
 
 		svg{
@@ -32,13 +32,13 @@
 	}
 
 	@include breakpoint(md) {
-		padding-top:$baseline*4;
+		padding-top:$baseline*1;
 
 		svg{
-			width: 390px;
+			width: 350px;
 			float: right;
 			position:relative;
-			left:130px;
+			left:35px;
 		}
 
 	}
