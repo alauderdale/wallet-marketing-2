@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="125px" viewBox="0 0 125 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 54</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="53.5" cy="53.5" r="53.5"></circle>
+        <filter x="-15.9%" y="-9.3%" width="131.8%" height="131.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773328234 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---slide-3" transform="translate(-1041.000000, -3286.000000)">
+            <g id="Group-54" transform="translate(1050.000000, 3288.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-42" transform="translate(30.000000, 28.000000)">
+                    <path d="M4,27.6601562 L15,27.6601562 L15,41.6601562 L15,41.6601562 C8.92486775,41.6601562 4,36.7352885 4,30.6601562 L4,27.6601562 Z" id="Rectangle" fill="#0073E9"></path>
+                    <rect id="Rectangle" fill="#0073E9" x="30" y="27.6601562" width="11" height="14"></rect>
+                    <path d="M24,47.8579102 L31.9072266,47.8579102 C35.3301515,47.8579102 38.1049805,45.0830812 38.1049805,41.6601562 L38.1049805,41.6601562" id="Path-4" stroke="#4EADF9" stroke-width="4"></path>
+                    <path d="M6,28 L6,22.5 C6,13.3873016 13.3873016,6 22.5,6 L22.5,6 C31.6126984,6 39,13.3873016 39,22.5 L39,28" id="Path-5" stroke-opacity="0.49838833" stroke="#0073E9" stroke-width="4"></path>
+                    <rect id="Rectangle" fill="#0073E9" x="21" y="44.6601562" width="4" height="6" rx="2"></rect>
+                    <path d="M22,0 L24,0 C36.1502645,-2.23196738e-15 46,9.8497355 46,22 L46,22 L0,22 L0,22 C-1.48797825e-15,9.8497355 9.8497355,2.23196738e-15 22,0 Z" id="Rectangle" fill="#0073E9" opacity="0.144159226"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

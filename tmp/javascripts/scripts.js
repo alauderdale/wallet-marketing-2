@@ -1,8 +1,37 @@
-
-
 $(document).ready(function(){
+    //initialize swiper when document ready
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      // slidesOffsetAfter: 100,
 
-	$( ".menu-button" ).click(function() {
+      loop: true,
+      keyboard: true,
+      initialSlide: 0,
+      slidesPerView: 'auto',
+      loopedSlides: 3,
+
+
+
+    // If we need pagination
+    pagination: {
+      clickable: true,
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+
+    });
+
+
+
+
+  $( ".menu-button" ).click(function() {
         $( "html" ).toggleClass( "nav-open" );
     });
 
@@ -13,122 +42,275 @@ $(document).ready(function(){
     var scroll = $(window).scrollTop();
 
     if (scroll >= 5) {
-    	$("#primary-nav").removeClass("navbar-page-top");
+      $("#primary-nav").removeClass("navbar-page-top");
     }
 
 
-	$(window).scroll(function() {    
-	    
-		var scroll = $(window).scrollTop();
-	    if (scroll >= 5) {
-	        $("#primary-nav").removeClass("navbar-page-top");
-	    } else {
-	        $("#primary-nav").addClass("navbar-page-top");
-	    }
-	});
-
-
-	$(".hover-slider .carousel-indicators div").hover(function(){
-	  var goto = Number( $(this).attr('data-slide-to') );
-	  $("#ToolsSLider").carousel(goto);  
-	});
-
-
-	// Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 500, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
+  $(window).scroll(function() {    
+      
+    var scroll = $(window).scrollTop();
+      if (scroll >= 5) {
+          $("#primary-nav").removeClass("navbar-page-top");
+      } else {
+          $("#primary-nav").addClass("navbar-page-top");
       }
-    }
   });
 
+    //animations
+
+    // TweenMax.set("#clear");
+    // TweenMax.to("#clear", .3, {
+    //   x: 200,
+    //   scale: 1,
+    //   delay: .5,
+    //   ease: Power1.easeOut,
+    //   autoAlpha:1,
+    // });
+
+    // TweenMax.set("#phone-total");
+    // TweenMax.to("#phone-total", 1, {
+    //   x: 10,
+    //   scale: 1,
+    //   delay: 0,
+    //   ease: Power1.easeOut,
+    //   autoAlpha:1,
+    // });
+
+
+    TweenMax.set("#pohne-port");
+    TweenMax.to("#pohne-port", .5, {
+      y: 163,
+      scale: 1,
+      delay: 0,
+      ease: Power1.easeOut,
+      autoAlpha:1,
+    });
+
+    // TweenMax.set("#bottom-card");
+    // TweenMax.to("#bottom-card", .5, {
+    //   y: 330,
+    //   scale: 1,
+    //   delay: 0,
+    //   ease: Power1.easeOut,
+    //   autoAlpha:1,
+    // });
+
+    // tl.set("#bottom-card", {
+    //   x:0,
+    //   y:20,
+    //   scale: 1.6,
+    //   autoAlpha:1
+    // }).to("#bottom-card", 1, {
+    //   x:0,
+    //   y:0,
+    //   scale: 1.6,
+    //   autoAlpha:1
+    // })
+
+
+    var bottomCardtl = new TimelineLite();
+
+
+    bottomCardtl.set("#bottom-card", {
+      x:50,
+      y:350,
+      scale: 1.6,
+      autoAlpha:0
+    }).to("#bottom-card", .2, {
+      y:200,
+      autoAlpha:1,
+      ease: Power1.easeOut
+    }).to("#bottom-card", .4, {
+      delay:1.5,
+      ease: Power1.easeIn,
+      x:30,
+      y:330,
+      scale: 1,
+    })
+
+    var license1Timeline = new TimelineLite();
+
+
+    license1Timeline.set("#license-1", {
+      scale: 1,
+      x:-10,
+      autoAlpha:0
+    }).to("#license-1", .5, {
+      ease: Power1.easeIn,
+      x:10,
+      scale: 1,
+      delay:.5,
+      autoAlpha:1
+    })
+
+    var license2Timeline = new TimelineLite();
+
+
+    license2Timeline.set("#license-2", {
+      scale: 1,
+      x:-10,
+      autoAlpha:0
+    }).to("#license-2", .5, {
+      delay:1,
+      ease: Power1.easeIn,
+      x:5,
+      scale: 1,
+      autoAlpha:1
+    })
+
+
+    var phoneTimeline = new TimelineLite();
+
+
+    phoneTimeline.set("#phone", {
+      autoAlpha:0
+    }).to("#phone", .2, {
+      delay:1.7,
+      ease: Power1.easeIn,
+      autoAlpha:1
+    })
+
+
+    var topCardtl = new TimelineLite();
+
+
+    topCardtl.set("#top-card", {
+      x:0,
+      y:170,
+      scale:1,
+      autoAlpha:0
+    }).to("#top-card", .4, {
+      delay:2.1,
+      ease: Power1.easeOut,
+      x:30,
+      y:170,
+      scale:1,
+      autoAlpha:1
+    })
+
+
+    var clearCard = new TimelineLite();
+
+
+    clearCard.set("#clear", {
+      x:220,
+      autoAlpha:0
+    }).to("#clear", .4, {
+      delay:2.1,
+      ease: Power1.easeOut,
+      x:200,
+      autoAlpha:1
+    })
 
 
 
 
-	// $('.tool-icon').click(function(){
 
-	//     $('.tool-icon').removeClass('active');
-	//     $(this).addClass('active');
+  var waypoint = new Waypoint({
+    element: document.getElementById('trigger-1'),
+    handler: function(direction) {
+        
 
-	// });
-
-
-	// $('#ToolsSLider').on('slide.bs.carousel', function () {
-	// 	$('.tool-icon').removeClass('active');
-	// })
-
-// $('#ToolsSLider').on('slide.bs.carousel', function (ev) {
-//   var id = ev.relatedTarget.id;
-//   switch (id) {
-//   	case "item-chat":
-//       $('.tool-icon-chat').addClass('active');
-//       $('#tools').css('background-image','url(../images/bg-tools-accent-chat.svg)');
-//       break;
-//     case "item-call":
-//       $('.tool-icon-call').addClass('active');
-//       $('#tools').css('background-image','url(../images/bg-tools-accent-call.svg)');
-//       break;
-//     case "item-idea":
-//       $('.tool-icon-idea').addClass('active');
-//       $('#tools').css('background-image','url(../images/bg-tools-accent-idea.svg)');
-//       break;
-//     case "item-event":
-//       $('.tool-icon-event').addClass('active');
-//       $('#tools').css('background-image','url(../images/bg-tools-accent-event.svg)');
-//       break;
-//     case "item-contact":
-//       $('.tool-icon-contact').addClass('active');
-//       $('#tools').css('background-image','url(../images/bg-tools-accent-contact.svg)');
-//       break;
-//     case "item-test":
-//       $('.tool-icon-test').addClass('active');
-//       $('#tools').css('background-image','url(../images/bg-tools-accent-test.svg)');
-//       break;
-//     case "item-email":
-//       $('.tool-icon-email').addClass('active');
-//       $('#tools').css('background-image','url(../images/bg-tools-accent-email.svg)');
-//       break;
-//     case "item-launch":
-//       $('.tool-icon-launch').addClass('active');
-//       $('#tools').css('background-image','url(../images/bg-tools-accent-launch.svg)');
-//       break;
-
-//   }
-// })
+          //card animations
 
 
+    var portCard1Tl = new TimelineLite();
+
+
+    portCard1Tl.set(".port-card-1", {
+      scale:0,
+      x:-200,
+      y:200,
+      autoAlpha:0
+    }).to(".port-card-1", .7, {
+      scale:1,
+      x:0,
+      y:0,
+      delay:.1,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+    var portCard2Tl = new TimelineLite();
+
+
+    portCard2Tl.set(".port-card-2", {
+      scale:0,
+      x:-200,
+      y:-200,
+      delay:.2,
+      autoAlpha:0
+    }).to(".port-card-2", .7, {
+      scale:1,
+      x:0,
+      y:0,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+    var portCard3Tl = new TimelineLite();
+
+
+    portCard3Tl.set(".port-card-3", {
+      scale:0,
+      x:200,
+      y:-200,
+      delay:.3,
+      autoAlpha:0
+    }).to(".port-card-3", .7, {
+      scale:1,
+      x:0,
+      y:0,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+    var portCard4Tl = new TimelineLite();
+
+
+    portCard4Tl.set(".port-card-4", {
+      scale:0,
+      x:200,
+      y:200,
+      delay:.4,
+      autoAlpha:0
+    }).to(".port-card-4", .7, {
+      scale:1,
+      x:0,
+      y:0,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+    var checkTl = new TimelineLite();
+
+
+    checkTl.set(".port-check", {
+      scale:0,
+      autoAlpha:0
+    }).to(".port-check", .3, {
+      scale:1,
+      delay:1,
+      ease: Back.easeOut,
+      autoAlpha:1
+    })
+
+
+
+      this.destroy()
+
+
+    }
+  })
 
 
 
 
 });
+
+
+
