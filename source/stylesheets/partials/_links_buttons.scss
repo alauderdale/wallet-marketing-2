@@ -23,6 +23,21 @@ a{
 		top:3px;
 		margin-right:10px;
 	}
+	&.btn-link{
+		font-size: 21px;
+		border-bottom:1px solid $link-color;
+		padding-left:0;
+		padding-right:0;
+		&:hover{
+			text-decoration: none;
+			color:shade($link-color,30%)!important;
+			border-bottom-color:shade($link-color,30%);
+		}
+		@include breakpoint(sm) {
+			border:none;
+			white-space:initial;
+		}
+	}
 	//primary buttons
 	&.btn-primary{
 		background:$link-color;
