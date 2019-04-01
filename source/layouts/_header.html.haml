@@ -1,6 +1,9 @@
 .mobile-menu.d-lg-none
 	.navbar-nav.mx-auto
 		.nav-item
+			%a.nav-link{:href => "/"}
+				Home
+		.nav-item
 			%a.nav-link{:href => "#"}
 				Security
 		.nav-item
@@ -14,7 +17,8 @@
 	.container
 		.row.align-items-center
 			.col
-				%img{:src=>"../images/logo.svg"}
+				%a{:href=>"/"}
+					%img{:src=>"../images/logo.svg"}
 			.col.d-sm-none.d-none.d-md-block
 				%ul.nav.justify-content-end.align-items-center
 					%li.nav-item
